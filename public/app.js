@@ -361,9 +361,7 @@ async function preload() {
   await loadWilayah();
   await loadCategory();
 
-  /** Category counts */
   for (const poi of poiAll) {
-    // getHierarchy
     if (Object.keys(categoryCounter).includes(poi["Kategori"])) {
       categoryCounter[poi["Kategori"]]++;
     } else {
