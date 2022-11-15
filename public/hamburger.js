@@ -21,12 +21,11 @@ function onHamburgerClicked() {
 window.addEventListener("load", function () {
   function myFunction(x) {
     if (x.matches) {
-      // Mobile
       toggleHamburger(false);
     } else {
       toggleHamburger(true);
     }
   }
   var x = window.matchMedia("(max-width: 700px)");
-  myFunction(x); // Call listener function at run time
+  myFunction(x);
 });

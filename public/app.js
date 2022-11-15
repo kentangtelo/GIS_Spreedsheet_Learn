@@ -385,7 +385,7 @@ async function preload() {
   });
 
   isLoading = false;
-  // document.getElementById("loadingIndicator").classList.add("hideLoading");
+  document.getElementById("loadingIndicator").classList.add("hideLoading");
 }
 
 function setup() {
